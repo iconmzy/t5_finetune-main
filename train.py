@@ -30,7 +30,7 @@ k_save_dir = "./save"
 k_data_dir = "./data"
 # Note, the global var record_dir is used for actual saves
 
-k_epochs = 200      # usual 200
+k_epochs = 50      # usual 200
 k_model="t5-small"   # usual t5-small; could also be t5-base, t5-large, etc. But as written we support only T5
                      # to handle a different model type, change the code in main, but you might also need to change
                      # calls to forward, label config, etc.
